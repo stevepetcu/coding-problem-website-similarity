@@ -46,7 +46,7 @@ For example, out of `('a', 'b')` and `('b', 'a')`, we're only going to count `('
 ```
 where:
 - `similarity` = number of unique users who visited both sites
-- `difference` = the difference between the total number of users who visited website_1 and website_2
+- `difference` = the difference between the total number of users who visited `website_1` and `website_2`
 
 3. Order the resulting array `desc` by the `similarity` value and then `asc` by the `difference` value
 4. Return the first `k` number of pairs of websites
